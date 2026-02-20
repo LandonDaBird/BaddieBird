@@ -1,4 +1,10 @@
 
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
-    background: rgb(50, 100, 20);
+    background: linear-gradient(90deg, red, black, blue);
 }
