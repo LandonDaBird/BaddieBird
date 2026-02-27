@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: red;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+ }
+
+.box {
+    background: blue;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    position: center;
+}
