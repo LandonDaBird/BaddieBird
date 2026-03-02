@@ -24,13 +24,14 @@ body {
     border-radius: 50px;
     color: black;
     cursor: pointer;
-    flex 1;
+    flex: 1;
     margin: 10px;
     position: relative;
+    transition: flex 1s ease-in;
 }
 
 h3 {
-    position: relative;
+    position: absolute;
     bottom: 20px;
     left: 20;
     font-size: 24px;
