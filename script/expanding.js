@@ -7,7 +7,7 @@ for (let i = 0; i < 5; i = i + 1){
     })
 }
 
-function removeActiveAllPanels() {
+function removeActiveFromAllPanels() {
     for (let i=0; i < 5; i = i + 1){
         panels[i].classList.remove('active')
     }
