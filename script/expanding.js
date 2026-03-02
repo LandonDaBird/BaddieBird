@@ -1,3 +1,3 @@
 panels = document.querySelectorAll('.panel')
 
-panel[0]
+panels[0].classlist.add('active')
