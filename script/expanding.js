@@ -1,5 +1,7 @@
 panels = document.querySelectorAll('.panel')
 
 for (i = 0; i < 5; i = i + 1){
-    console.log(i)
+    panels[i].addEventListener('click', () => {
+        panels[i].classlist.add('active')
+    })
 }
