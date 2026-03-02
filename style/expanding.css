@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color: white;
+    color: black;
     cursor: pointer;
     flex 1;
     margin: 10px;
@@ -33,4 +33,6 @@ h3 {
     position: absolute;
     bottom: 20px;
     left: 20;
+    font-size: 24px;
+    margin: 0;
 }
