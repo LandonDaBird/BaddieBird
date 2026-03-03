@@ -1,0 +1,47 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.rectangle {
+    height: 60px;
+    width: 250px;
+    background: red;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.move {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.spin {
+    position: absolute;
+}
+
+.hover {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.dbclick {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
