@@ -40,8 +40,22 @@ body {
     right: 50px;
 }
 
-.dbclick {
+.dblclick {
     position: absolute;
     bottom: 50px;
     right: 50px;
+}
+
+
+.start {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
