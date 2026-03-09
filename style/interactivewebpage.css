@@ -10,7 +10,7 @@ body {
 
 .rectangle {
     height: 60px;
-    width: 250px;
+    width: 100px;
     background: red;
     margin: 3px;
     border-radius: 20px;
@@ -31,7 +31,23 @@ h3 {
     left: 30px;
     font-size: 24px;
     margin: 0;
+    opacity: 1;
+}
+
+h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-size: 24px;
+    margin: 0;
     opacity: 0;
     transition: opacity 1s ease-in 0.5s;
 }
 
+.panel.active {
+    flex: 10;
+}
+
+.panel.active h3 {
+    opacity: 1;
+}
