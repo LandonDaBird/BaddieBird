@@ -1,10 +1,6 @@
 clickBox = document.querySelector('.click')
-spinBox = document.querySelector('.spin')
-moveBox = document.querySelector('.move')
-hoverBox = document.querySelector('.hover')
-dblclickBox = document.querySelector('.dblclick')
 
-colors = ['blue', 'green', 'purple', 'red']
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 index = 0
 
 clickBox.addEventListener('click', () => {
