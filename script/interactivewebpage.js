@@ -1,13 +1,13 @@
 clickBox = document.querySelector('.click')
 
-colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
+colors = ['red', 'orange', 'yellow', 'green', 'skyblue', 'blue', 'purple', 'pink', 'white', 'grey']
 index = 0
 
 clickBox.addEventListener('click', () => {
     clickBox.style.background = colors[index]
-    index = index + 1
+        index = index + 1
     if (index == colors.length){
         index = 0
     }
-    clickBox.style.color = 'white'
+    clickBox.style.color = 'black'
 })
