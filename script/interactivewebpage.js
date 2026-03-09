@@ -1,10 +1,11 @@
-box = document.querySelectorAll('.box')
+hoverBox.querySelector = ('.box')
 
-
-box.addEventListener('mouseenter', () => {
-    h3 =  opacity 1;
+hoverBox.addEventListener('click', () => {
+    hoverBox.style.height = "30px"
+    hoverBox.style.width = "125px"
 })
 
-box.addEventListener('mouseleave', () => {
-    h3 = opacity 0;
+hoverBox.addEventListener('dblclick', () => {
+    hoverBox.style.height = "60px"
+    hoverBox.style.width = "250px"
 })
