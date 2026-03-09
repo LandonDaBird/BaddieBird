@@ -35,11 +35,3 @@ h3 {
     transition: opacity 1s ease-in 0.5s;
 }
 
-.box.active {
-    flex: 10;
-}
-
-.box.active h3 {
-    opacity: 1;
-}
-
