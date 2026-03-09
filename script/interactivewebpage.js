@@ -1,11 +1,13 @@
-hoverBox.querySelector = ('.box')
+Box = document.querySelector = ('.box')
 
-hoverBox.addEventListener('click', () => {
-    hoverBox.style.height = "30px"
-    hoverBox.style.width = "125px"
-})
+colors = ['blue', 'green', 'purple', 'red']
+index = 0
 
-hoverBox.addEventListener('dblclick', () => {
-    hoverBox.style.height = "60px"
-    hoverBox.style.width = "250px"
+Box.addEventListener('click', () => {
+    rectangle.style.background = colors[index]
+    index = index + 1
+    if (index == colors.length){
+        index = 0
+    }
+    rectangle.style.color = 'white'
 })
