@@ -1,13 +1,17 @@
-Box = document.querySelector = ('.box')
+clickBox = document.querySelector('.click')
+spinBox = document.querySelector('.spin')
+moveBox = document.querySelector('.move')
+hoverBox = document.querySelector('.hover')
+dblclickBox = document.querySelector('.dblclick')
 
 colors = ['blue', 'green', 'purple', 'red']
 index = 0
 
-Box.addEventListener('click', () => {
-    style.rectangle.background = colors[index]
+clickBox.addEventListener('click', () => {
+    clickBox.style.background = colors[index]
     index = index + 1
     if (index == colors.length){
         index = 0
     }
-    rectangle.style.color = 'white'
+    clickBox.style.color = 'white'
 })
