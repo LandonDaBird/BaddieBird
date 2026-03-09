@@ -4,7 +4,7 @@ colors = ['blue', 'green', 'purple', 'red']
 index = 0
 
 Box.addEventListener('click', () => {
-    rectangle.style.background = colors[index]
+    style.rectangle.background = colors[index]
     index = index + 1
     if (index == colors.length){
         index = 0
