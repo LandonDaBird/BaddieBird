@@ -120,6 +120,10 @@ h1 {
     align-items: center;
     justify-content: center;
     position: absolute;
+}
+
+.insect.caught{
+    transform: scale(0);
     
 }
 
