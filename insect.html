@@ -12,7 +12,45 @@
         <button class="btn" id="start-btn">Play Game</button>
     </div>
 
-    
+    <div class="screen">
+        <h1>What is your favorite insect?</h1>
+        <ul class = "insects-list">
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Fly</p>
+                    <img src="images/fly.png" alt="Fly">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Mosquito</p>
+                    <img src="images/mosquito.png" alt="Mosquito">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Spider</p>
+                    <img src="images/spider.png" alt="Spider">
+                </button>
+            </li>
+            <li>
+                <button class="choose-insect-btn">
+                    <p>Ant</p>
+                    <img src="images/ant.png" alt="Ant">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-containter" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Are you annoyed yet? <br>
+            You are playing an impossible game!!
+        </h5>
+    </div>
+
     <script src="script/insect.js"></script>
 </body>
 </html>
