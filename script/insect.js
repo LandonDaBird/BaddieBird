@@ -30,7 +30,7 @@ function createInsect() {
     insect.style.top = `${y}px`
     insect.style.left = `${x}px`
     insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
-    game_container.appendChild(insect)
+    game_container.appendChild(insect);
 }
 
 function getRandomLocation() {
@@ -40,3 +40,12 @@ function getRandomLocation() {
     y = Math.random()*(height - 200) + 100
     return {x, y}
 }
+
+
+function catchInsect() {
+    //increaseScore()\
+    this.classList.add('caught')
+    setTimeout( () => this.remove(), 2000)
+    setTimeout(createInsect)
+}
+
