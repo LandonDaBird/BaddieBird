@@ -27,6 +27,6 @@ function startGame() {
 function createInsect() {
     insect = document.createElement('div')
     insect.classList.add('insect')
-    insect.innerHTML = `<img src="${src}" alt="${alt}">`
+    insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
     game_container.appendChild(insect)
 }
