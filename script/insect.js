@@ -4,7 +4,7 @@ start_btn = document.getElementById('start-btn')
 game_container = document.querySelector('.game-container')
 scoreEl = document.getElementById('score')
 timeEl = document.getElementById('time')
-messageEL = document.getElementById('message')
+messageEl = document.getElementById('message')
 score = 0
 seconds = 0
 
@@ -62,7 +62,7 @@ function addInsects() {
 function increaseScore() {
     score = score + 1
     scoreEl.innerHTML = `Score: ${score}`
-    if (score => 30){
+    if (score == 30){
         messageEl.classList.add('visible')
     }
 }
