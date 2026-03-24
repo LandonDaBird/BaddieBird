@@ -62,6 +62,9 @@ function addInsects() {
 function increaseScore() {
     score = score + 1
     scoreEl.innerHTML = `Score: ${score}`
+    if (score => 30){
+        messageEl.classList.add('visible')
+    }
 }
 
 function increaseTime() {
