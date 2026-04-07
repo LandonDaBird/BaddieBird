@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    background: red;
+    position: relative;
+    height: 10px;
+    width: 20px;
+}
