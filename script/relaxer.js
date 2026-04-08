@@ -8,5 +8,5 @@ holdTime = totalTime / 5
 breathAnimation()
 
 function breathAnimation() {
-    text.innerText = 'Breath In!'
+    text.innerText = 'Breathe In!'
 }
