@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow: hidden;
+    background: #add8e6;
+}
+
 .road {
     background: grey;
     position: absolute;
