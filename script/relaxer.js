@@ -9,4 +9,15 @@ breathAnimation()
 
 function breathAnimation() {
     text.innerText = 'Breathe In!'
-}
+    container.classList.add('grow')
+
+    setTimeout( () => {
+        text.innerText = 'Hold';
+    }, breathTime)
+
+    setTimeout( () => {
+        text.innerText = 'Breathe Out!'
+        container.classList.remove('grow')
+        container.classList.add('shrink')
+    },holdTime)
+}, breathTime)
