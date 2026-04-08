@@ -15,6 +15,10 @@ body {
     margin: 0;
 }
 
+.text {
+    background: white;
+}
+
 .container {
     display: flex;
     align-items: center;
