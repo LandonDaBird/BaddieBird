@@ -21,3 +21,5 @@ function breathAnimation() {
         container.classList.add('shrink')
     },holdTime)
 }, breathTime)
+
+setInterval(breathAnimation, 1000)
