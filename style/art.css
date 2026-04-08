@@ -18,8 +18,29 @@ body {
     left: -20px
 }
 
-.grass {
+.grass1 {
     background: green;
     position: absolute;
     height: 150px;
+    width: 300vh;
+    bottom: 0px;
+    left: -20px;
+}
+
+.grass2 {
+    background: green;
+    position: absolute;
+    height: 50px;
+    width: 300vh;
+    bottom: 250px;
+    left: -20px;
+}
+
+.yellowLine {
+    background: yellow;
+    position: absolute;
+    height: 10px;
+    width: 300vh;
+    bottom: 200px;
+    left: -20px;
 }
