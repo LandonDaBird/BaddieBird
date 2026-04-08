@@ -22,4 +22,4 @@ function breathAnimation() {
     },holdTime)
 }, breathTime)
 
-setInterval(breathAnimation, 1000)
+setInterval(breathAnimation, 7500)
