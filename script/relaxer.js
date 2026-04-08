@@ -18,8 +18,13 @@ function breathAnimation() {
         text.innerText = 'Breathe Out!'
         container.classList.remove('grow')
         container.classList.add('shrink')
-    },holdTime)
-}, breathTime)
-containter.classL
+
+        setTimeout( () => {
+            container.classList.remove('shrink')
+            breathAnimation()
+            }, breathTime)
+        }, holdTime)
+    }, breathTime)
 }
+
 setInterval(breathAnimation, 7500)
