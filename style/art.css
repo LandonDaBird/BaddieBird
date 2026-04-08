@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
-.square {
-    background: red;
-    position: relative;
-    height: 10px;
-    width: 20px;
+.road {
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vh;
+    margin: 0;
+    overflow: hidden;
+    bottom: 100px;
 }
