@@ -4,16 +4,22 @@
 
 body {
     overflow: hidden;
-    background: #add8e6;
+    background: #0096c7;
 }
 
 .road {
     background: grey;
     position: absolute;
-    height: 50px;
+    height: 100px;
     width: 300vh;
     margin: 0;
     overflow: hidden;
-    bottom: 100px;
+    bottom: 150px;
     left: -20px
+}
+
+.grass {
+    background: green;
+    position: absolute;
+    height: 150px;
 }
