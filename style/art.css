@@ -39,8 +39,54 @@ body {
 .yellowLine {
     background: yellow;
     position: absolute;
-    height: 10px;
+    height: 5px;
     width: 300vh;
     bottom: 200px;
     left: -20px;
+}
+
+.sun {
+    position: absolute;
+    background: yellow;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+}
+
+.cloud1 {
+    position: absolute;
+    background: #ffffff;
+    height: 100px;
+    width: 200px;
+    top: 80px;
+    right: 280px;
+    border-radius: 50%;
+    z-index: 50;
+    border-color: black;
+}
+
+.cloud2 {
+    position: absolute;
+    background: #ffffff;
+    height: 100px;
+    width: 200px;
+    left: 200px;
+    top: 50px;
+    border-radius: 50%;
+    border: 5px;
+    border-color: black;
+    z-index: 40;
+}
+
+.car {
+    position: absolute;
+    background: red;
+    width: 200px;
+    height: 50px;
+    bottom: 175px;
+    left: 400px;
+    rotate:
 }
