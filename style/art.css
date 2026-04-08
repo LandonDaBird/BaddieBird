@@ -81,12 +81,58 @@ body {
     z-index: 40;
 }
 
-.car {
+.car1 {
     position: absolute;
     background: red;
     width: 200px;
     height: 50px;
     bottom: 175px;
     left: 400px;
-    rotate:
+}
+
+.car2 {
+    position: absolute;
+    background: red;
+    width: 150px;
+    height: 100px;
+    bottom: 175px;
+    left: 400px;
+}
+
+.window1 {
+    position: absolute;
+    background: #add;
+    width: 45px;
+    height: 40px;
+    bottom: 225px;
+    left: 425px;
+}
+
+.window2 {
+    position: absolute;
+    background: #add;
+    width: 45px;
+    height: 40px;
+    bottom: 225px;
+    left: 490px;
+}
+
+.wheel1 {
+    position: absolute;
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 160px;
+    left: 425px;
+}
+
+.wheel2 {
+    position: absolute;
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: 160px;
+    left: 530px;
 }
