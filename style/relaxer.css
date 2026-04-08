@@ -16,7 +16,8 @@ body {
 }
 
 .text {
-    background: white;
+    color: #ffffff;
+    z-index: 100;
 }
 
 .container {
