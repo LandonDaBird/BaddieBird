@@ -110,37 +110,41 @@ function createRPaddle() {
 
 createScore1()
 function createScore1() {
-    Score1.style.height = "50px"
-    Score1.style.width = "100px"
+    Score1.style.height = "35px"
+    Score1.style.width = "80px"
     Score1.style.background = "#ffffff"
-    Score1.style.background = "red"
+    Score1.style.position = "absolute"
     Score1.style.text = P1Score
-    Score1.style.left = "10px"
+    Score1.style.left = "600px"
     Score1.style.top = "10px"
-    Score1.innerhtml = `Player 1 Score: 0`
+    Score1.style.fontsize = "30px"
+    Score1.innerHTML = `Player 1 Score: ${P1Score}`
+
 }
 
 createScore2()
 function createScore2() {
-    Score2.style.height = "50px"
-    Score2.style.width = "100px"
-    Score2.style.background = "red"
+    Score2.style.height = "35px"
+    Score2.style.width = "80px"
+    Score2.style.background = "#ffffff"
     Score2.style.position = "absolute"
-    Score2.style.right = "10px"
+    Score2.style.right = "600px"
     Score2.style.top = "10px"
-    Score2.innerhtml = `Player 2 Score: 0`
+    Score2.style.fontsize = "30px"
+    Score2.innerHTML = `Player 2 Score: ${P2Score}`
+
 }
 
 function IncreaseP1Score()
 {
     P1Score = P1Score + 1
-    Score1.innerHTML = `PLayer 1 Score: ${P1Score}`
+    Score1.innerHTML = `Player 1 Score: ${P1Score}`
 }
 
 function IncreaseP2Score()
 {
     P2Score = P2Score + 1
-    Score2.innerHTML = `PLayer 2 Score: ${P2Score}`
+    Score2.innerHTML = `Player 2 Score: ${P2Score}`
 }
 wKey = false
 sKey = false
